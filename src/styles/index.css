@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-base: 59 38 29;
+  --color-accent: 127 27 35;
+  --color-secondary: 198 162 92;
+  --color-neutral: 30 24 18;
+  --color-cream: 250 246 238;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  background-color: rgb(var(--color-cream));
+  color: rgb(var(--color-neutral));
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(var(--color-secondary));
+  outline-offset: 2px;
+}
