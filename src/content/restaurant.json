@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "name": "Golden Bauhinia",
+    "type": "Restaurant",
+    "cuisine": "Chinesisch / Asiatisch",
+    "address": {
+      "street": "Schöneggstrasse 2",
+      "postalCode": "5200",
+      "city": "Brugg",
+      "region": "Aargau",
+      "country": "Schweiz"
+    }
+  },
+  "contact": {
+    "phone": "0564410544"
+  },
+  "hours": [
+    { "day": "Montag", "hours": "Geschlossen" },
+    { "day": "Dienstag", "hours": "11:30–14:00, 18:00–22:00" },
+    { "day": "Mittwoch", "hours": "11:30–14:00, 18:00–22:00" },
+    { "day": "Donnerstag", "hours": "11:30–14:00, 18:00–22:00" },
+    { "day": "Freitag", "hours": "11:30–14:00, 18:00–22:00" },
+    { "day": "Samstag", "hours": "11:30–14:00, 18:00–22:00" },
+    { "day": "Sonntag", "hours": "11:30–14:00, 17:30–21:00" }
+  ],
+  "languages": ["de", "en", "it", "fr"],
+  "links": {
+    "googleMaps": "https://maps.google.com/?q=Sch%C3%B6neggstrasse%202,%205200%20Brugg%20AG%20Switzerland",
+    "references": [
+      { "name": "local.ch", "url": "[Link pending]" },
+      { "name": "TripAdvisor", "url": "[Link pending]" },
+      { "name": "ristorante-aroma.ch", "url": "[Link pending]" }
+    ]
+  },
+  "ctas": {
+    "call": "Jetzt anrufen",
+    "directions": "Wegbeschreibung",
+    "reserve": "Reservieren per Telefon"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/hero/hero.png",
+      "alt": "Traditionelles Restaurantinterieur"
+    },
+    "logo": {
+      "src": "/images/logo/logo_provisional.png",
+      "alt": "Golden Bauhinia Logo (provisorisch)",
+      "note": "Provisorisches Logo – bitte durch offizielles Logo ersetzen."
+    },
+    "dishes": [
+      {
+        "src": "/images/dishes/dish1.png",
+        "alt": "Gericht 1"
+      },
+      {
+        "src": "/images/dishes/dish2.png",
+        "alt": "Gericht 2"
+      },
+      {
+        "src": "/images/dishes/dish3.png",
+        "alt": "Gericht 3"
+      }
+    ],
+    "venue": [
+      {
+        "src": "/images/venue/interior.png",
+        "alt": "Innenraum des Restaurants"
+      },
+      {
+        "src": "/images/venue/exterior.png",
+        "alt": "Außenansicht des Restaurants"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/hero/hero.png",
+        "alt": "Blick in den Gastraum"
+      },
+      {
+        "src": "/images/dishes/dish1.png",
+        "alt": "Gericht 1"
+      },
+      {
+        "src": "/images/dishes/dish2.png",
+        "alt": "Gericht 2"
+      },
+      {
+        "src": "/images/dishes/dish3.png",
+        "alt": "Gericht 3"
+      },
+      {
+        "src": "/images/venue/interior.png",
+        "alt": "Innenraum"
+      },
+      {
+        "src": "/images/venue/exterior.png",
+        "alt": "Fassade"
+      }
+    ]
+  },
+  "menu": {
+    "notice": "Unser vollständiges Menü ist in Arbeit. Bis dahin zeigen wir eine Auswahl aus unserer Küche.",
+    "items": [
+      {
+        "label": "Gericht 1",
+        "description": "Beschreibung folgt.",
+        "image": "/images/dishes/dish1.png"
+      },
+      {
+        "label": "Gericht 2",
+        "description": "Beschreibung folgt.",
+        "image": "/images/dishes/dish2.png"
+      },
+      {
+        "label": "Gericht 3",
+        "description": "Beschreibung folgt.",
+        "image": "/images/dishes/dish3.png"
+      }
+    ]
+  },
+  "copy": {
+    "de": {
+      "translationNotice": "Übersetzungen für weitere Sprachen folgen.",
+      "navigation": {
+        "home": "Home",
+        "menu": "Menü",
+        "location": "Standort & Zeiten",
+        "gallery": "Galerie",
+        "about": "Über uns",
+        "contact": "Kontakt"
+      },
+      "labels": {
+        "language": "Sprache"
+      },
+      "hero": {
+        "eyebrow": "Traditionelle chinesische Küche",
+        "title": "Golden Bauhinia",
+        "subtitle": "Chinesisches Restaurant in Brugg (Aargau).",
+        "primaryCta": "Jetzt anrufen",
+        "secondaryCta": "Wegbeschreibung"
+      },
+      "highlights": {
+        "title": "Warum Golden Bauhinia",
+        "items": [
+          {
+            "title": "Großzügige Portionen",
+            "description": "Gäste berichten von reichhaltigen Portionen, die gerne geteilt werden."
+          },
+          {
+            "title": "Authentische chinesische Küche",
+            "description": "Aromatische Gerichte mit klassischen chinesischen Einflüssen."
+          },
+          {
+            "title": "Traditionelles Ambiente",
+            "description": "Warme Holztöne und dezente Dekorelemente schaffen eine ruhige Atmosphäre."
+          }
+        ]
+      },
+      "homeMenu": {
+        "title": "Auswahl an Gerichten",
+        "description": "Ein kleiner Einblick in unsere Küche."
+      },
+      "homeAbout": {
+        "title": "Ein Restaurant mit Tradition",
+        "body": "Das Golden Bauhinia verbindet chinesische Küche mit einem klassischen, gepflegten Ambiente. Viele Gäste schätzen die großzügigen Portionen, aromatischen Speisen und den freundlichen Service. Bei gutem Wetter ist auch draußen Platz."
+      },
+      "ctaBlock": {
+        "title": "Planen Sie Ihren Besuch",
+        "description": "Rufen Sie für Reservierungen an oder finden Sie uns in Brugg.",
+        "call": "Jetzt anrufen",
+        "reserve": "Reservieren per Telefon",
+        "directions": "Wegbeschreibung"
+      },
+      "location": {
+        "title": "Standort & Öffnungszeiten",
+        "addressLabel": "Adresse",
+        "hoursLabel": "Öffnungszeiten",
+        "cta": "In Google Maps öffnen"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Reservierungen und Anfragen bitte telefonisch."
+      },
+      "menuPage": {
+        "title": "Menü",
+        "description": "Eine kleine Auswahl aus unserer Küche."
+      },
+      "gallery": {
+        "title": "Galerie",
+        "description": "Impressionen aus Restaurant und Küche."
+      },
+      "about": {
+        "title": "Über uns",
+        "paragraphs": [
+          "Das Golden Bauhinia ist ein chinesisches Restaurant mit klassischem, lokalem Charakter.",
+          "Die Küche steht für aromatische Speisen und großzügige Portionen, die gerne gemeinsam genossen werden.",
+          "Das traditionelle Ambiente mit warmen Holztönen lädt zum gemütlichen Essen ein."
+        ]
+      },
+      "footer": {
+        "hoursLabel": "Öffnungszeiten",
+        "languagesLabel": "Sprachen",
+        "legal": "© Golden Bauhinia. Alle Rechte vorbehalten."
+      },
+      "notFound": {
+        "title": "Seite nicht gefunden",
+        "description": "Die gewünschte Seite existiert nicht."
+      }
+    },
+    "en": {
+      "translationNotice": "[Translation pending]"
+    },
+    "it": {
+      "translationNotice": "[Translation pending]"
+    },
+    "fr": {
+      "translationNotice": "[Translation pending]"
+    }
+  }
+}
