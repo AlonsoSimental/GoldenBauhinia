@@ -25,8 +25,8 @@ const Contact = () => {
             <p className="mt-4 text-neutral/70">{contactCopy.description}</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button href={`tel:${restaurant.contact.phone}`}>{restaurant.ctas.call}</Button>
-              <Button href={`tel:${restaurant.contact.phone}`} variant="secondary">
-                {restaurant.ctas.reserve}
+              <Button href={restaurant.links.googleMaps} variant="secondary">
+                {restaurant.ctas.directions}
               </Button>
             </div>
           </div>

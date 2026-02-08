@@ -45,7 +45,7 @@
     "logo": {
       "src": "/images/logo/logo_provisional.png",
       "alt": "Golden Bauhinia Logo (provisorisch)",
-      "note": "Provisorisches Logo – bitte durch offizielles Logo ersetzen."
+      "internalNote": "Provisorisches Logo – bitte durch offizielles Logo ersetzen."
     },
     "dishes": [
       {
@@ -99,21 +99,21 @@
     ]
   },
   "menu": {
-    "notice": "Unser vollständiges Menü ist in Arbeit. Bis dahin zeigen wir eine Auswahl aus unserer Küche.",
+    "notice": "Eine kleine Auswahl unserer Küche in Bildern. Weitere Details erhalten Sie gerne telefonisch.",
     "items": [
       {
-        "label": "Gericht 1",
-        "description": "Beschreibung folgt.",
+        "label": "Gericht (Foto 1)",
+        "description": "Details auf Anfrage.",
         "image": "/images/dishes/dish1.png"
       },
       {
-        "label": "Gericht 2",
-        "description": "Beschreibung folgt.",
+        "label": "Gericht (Foto 2)",
+        "description": "Details auf Anfrage.",
         "image": "/images/dishes/dish2.png"
       },
       {
-        "label": "Gericht 3",
-        "description": "Beschreibung folgt.",
+        "label": "Gericht (Foto 3)",
+        "description": "Details auf Anfrage.",
         "image": "/images/dishes/dish3.png"
       }
     ]
@@ -208,13 +208,13 @@
       }
     },
     "en": {
-      "translationNotice": "[Translation pending]"
+      "translationNotice": "English version available on request. Core information is shown in German."
     },
     "it": {
-      "translationNotice": "[Translation pending]"
+      "translationNotice": "Versione italiana disponibile su richiesta. Le informazioni principali sono in tedesco."
     },
     "fr": {
-      "translationNotice": "[Translation pending]"
+      "translationNotice": "Version francaise disponible sur demande. Les informations principales sont en allemand."
     }
   }
 }
