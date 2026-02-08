@@ -2,6 +2,12 @@
 
 A static marketing website for the **Golden Bauhinia** Chinese restaurant in Brugg (Aargau), Switzerland. The site is built to be fast, accessible, and easy to update using a single content source.
 
+## Refinement Update (post-development)
+- Removed internal/provisional logo notice from public UI.
+- Simplified repeated CTA patterns to a primary phone CTA and a secondary Google Maps CTA.
+- Improved menu placeholder copy to look presentable without inventing dish names or prices.
+- Replaced raw `[Translation pending]` labels with short, user-facing language notices.
+
 ## Stack & Technical Decisions
 - **React + Vite** for a modern, fast build pipeline.
 - **Tailwind CSS** for a consistent traditional/local visual theme.
@@ -51,9 +57,13 @@ Key areas to update:
 - **Identity & Contact**: name, cuisine, address, phone.
 - **Opening Hours**: `hours` array.
 - **CTA Labels**: `ctas` (Call, Directions, Reserve by phone).
-- **Copy**: `copy.de` for German text. Other languages show placeholders until translated.
+- **Copy**: `copy.de` for German text. Other languages currently use German fallback plus a short notice.
 - **Menu**: `menu.items` for image-based placeholders (no prices).
 - **Gallery**: `images.gallery` for the gallery page.
+
+Language handling:
+- `de` is the primary source for complete copy.
+- `en` / `it` / `fr` currently show a short notice and fallback to German content when full translations are not yet provided.
 
 ## Replacing Images
 Images are served from `public/images/` and referenced in `restaurant.json`.
@@ -86,3 +96,4 @@ To remove a page, reduce the related data in `restaurant.json` so the guard cond
 - Official logo (vector or high-resolution version).
 - Full menu text with confirmed dish names and prices.
 - Additional high-quality photos (dishes and venue).
+- Provisional logo is still in use and marked as an internal note in `restaurant.json` (not shown publicly).

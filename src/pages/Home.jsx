@@ -46,7 +46,6 @@ const Home = () => {
               {hero.secondaryCta}
             </Button>
           </div>
-          <p className="mt-6 text-sm text-cream/70">{restaurant.images.logo.note}</p>
         </div>
       </section>
 
@@ -106,9 +105,6 @@ const Home = () => {
           <h2 className="mt-3 text-3xl font-semibold">{ctaBlock.description}</h2>
           <div className="mt-6 flex flex-wrap gap-4">
             <Button href={`tel:${restaurant.contact.phone}`}>{ctaBlock.call}</Button>
-            <Button href={`tel:${restaurant.contact.phone}`} variant="secondary">
-              {ctaBlock.reserve}
-            </Button>
             <Button href={restaurant.links.googleMaps} variant="secondary">
               {ctaBlock.directions}
             </Button>
