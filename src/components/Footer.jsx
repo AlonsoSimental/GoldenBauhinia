@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-base text-cream">
-      <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-3 lg:px-8">
+      <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-10 sm:px-6 sm:py-12 lg:grid-cols-3 lg:px-8">
         <div>
           <h2 className="text-xl font-semibold">{restaurant.identity.name}</h2>
           <p className="mt-3 text-sm text-cream/80">{restaurant.identity.cuisine}</p>
@@ -23,9 +23,9 @@ const Footer = () => {
           <h3 className="text-sm font-semibold uppercase tracking-wide text-cream/70">
             {getFallback(locale, 'footer.hoursLabel')}
           </h3>
-          <ul className="mt-4 space-y-2 text-sm text-cream/80">
+          <ul className="mt-4 space-y-3 text-sm text-cream/80">
             {restaurant.hours.map((item) => (
-              <li key={item.day} className="flex items-center justify-between">
+              <li key={item.day} className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                 <span>{item.day}</span>
                 <span>{item.hours}</span>
               </li>

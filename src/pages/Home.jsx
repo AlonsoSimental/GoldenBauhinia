@@ -34,12 +34,12 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-base/70" aria-hidden="true" />
         </div>
-        <div className="relative mx-auto flex min-h-[70vh] w-full max-w-6xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
+        <div className="relative mx-auto flex min-h-[65vh] w-full max-w-6xl flex-col justify-center px-4 py-16 sm:min-h-[70vh] sm:px-6 sm:py-20 lg:px-8">
           <p className="text-sm uppercase tracking-[0.3em] text-secondary">{hero.eyebrow}</p>
-          <h1 className="mt-4 text-4xl font-semibold text-cream sm:text-5xl lg:text-6xl">
+          <h1 className="mt-4 text-3xl font-semibold text-cream sm:text-5xl lg:text-6xl">
             {hero.title}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-cream/90">{hero.subtitle}</p>
+          <p className="mt-4 max-w-2xl text-base text-cream/90 sm:text-lg">{hero.subtitle}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Button href={`tel:${restaurant.contact.phone}`}>{hero.primaryCta}</Button>
             <Button href={restaurant.links.googleMaps} variant="secondary">
@@ -55,7 +55,7 @@ const Home = () => {
             <p className="text-sm uppercase tracking-[0.3em] text-neutral/60">{hero.eyebrow}</p>
             <h2 className="mt-2 text-3xl font-semibold text-neutral">{highlights.title}</h2>
           </div>
-          <div className="grid gap-6 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {highlights.items.map((item) => (
               <Card key={item.title} title={item.title} description={item.description} />
             ))}
@@ -68,11 +68,11 @@ const Home = () => {
       <Section>
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <h2 className="text-3xl font-semibold text-neutral">{homeMenu.title}</h2>
+            <h2 className="text-2xl font-semibold text-neutral sm:text-3xl">{homeMenu.title}</h2>
             <p className="mt-3 text-neutral/70">{homeMenu.description}</p>
             <p className="mt-2 text-sm text-neutral/60">{restaurant.menu.notice}</p>
           </div>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {restaurant.menu.items.map((item) => (
               <div key={item.label} className="overflow-hidden rounded-2xl shadow-soft">
                 <img src={item.image} alt={item.label} className="h-40 w-full object-cover" loading="lazy" />
@@ -85,7 +85,7 @@ const Home = () => {
       <Section className="bg-neutral/5">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
           <div>
-            <h2 className="text-3xl font-semibold text-neutral">{homeAbout.title}</h2>
+            <h2 className="text-2xl font-semibold text-neutral sm:text-3xl">{homeAbout.title}</h2>
             <p className="mt-4 text-neutral/70">{homeAbout.body}</p>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-soft">
@@ -100,9 +100,9 @@ const Home = () => {
       </Section>
 
       <Section>
-        <div className="rounded-3xl bg-base px-6 py-10 text-cream sm:px-12">
+        <div className="rounded-3xl bg-base px-5 py-8 text-cream sm:px-12 sm:py-10">
           <p className="text-sm uppercase tracking-[0.3em] text-secondary">{ctaBlock.title}</p>
-          <h2 className="mt-3 text-3xl font-semibold">{ctaBlock.description}</h2>
+          <h2 className="mt-3 text-2xl font-semibold sm:text-3xl">{ctaBlock.description}</h2>
           <div className="mt-6 flex flex-wrap gap-4">
             <Button href={`tel:${restaurant.contact.phone}`}>{ctaBlock.call}</Button>
             <Button href={restaurant.links.googleMaps} variant="secondary">

@@ -19,9 +19,9 @@ const Contact = () => {
       </Helmet>
 
       <Section>
-        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <h1 className="text-3xl font-semibold text-neutral">{contactCopy.title}</h1>
+            <h1 className="text-2xl font-semibold text-neutral sm:text-3xl">{contactCopy.title}</h1>
             <p className="mt-4 text-neutral/70">{contactCopy.description}</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button href={`tel:${restaurant.contact.phone}`}>{restaurant.ctas.call}</Button>
@@ -30,7 +30,7 @@ const Contact = () => {
               </Button>
             </div>
           </div>
-          <div className="rounded-3xl bg-base p-8 text-cream shadow-soft">
+          <div className="rounded-3xl bg-base p-6 text-cream shadow-soft sm:p-8">
             <p className="text-sm uppercase tracking-[0.3em] text-secondary">{restaurant.identity.type}</p>
             <h2 className="mt-3 text-2xl font-semibold">{restaurant.identity.name}</h2>
             <p className="mt-4 text-sm text-cream/80">{restaurant.identity.cuisine}</p>
